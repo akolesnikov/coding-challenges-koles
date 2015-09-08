@@ -2,7 +2,7 @@
 
 ### HowTo
 
-* Please read the [general instructions](http://github.com/h2oai/coding-challenges/README.md)
+* Please read the [general instructions](https://github.com/h2oai/coding-challenges/blob/master/README.md)
 
 ### Problem Statement
 * Write a class `ApproxMemorizer` that attempts to approximately memorize a signal of the form `y_i = f(x_i)`, given `N` observations `{x_i, y_i}` that consist of two real-valued numbers
