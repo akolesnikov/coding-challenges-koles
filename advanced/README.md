@@ -10,7 +10,7 @@
 * There is no a priori knowledge of the underlying function `f`. You can assume that it's *reasonably smooth*, even though the observations might be noisy (especially for large numbers of observations). The goal is to be as generic as possible.
 * The upper bound on the memory usage of the ApproxMemorizer is limited by a parameter during construction
 * Training of the ApproxMemorizer class must be done one observation at a time (online learning), in one pass over the data
-* The accuracy of the ApproxMemorizer will be quantified with the *Mean Square Error* metric for any set of given observations and predictions made by your implementation
+* After training is done, quantify the accuracy of the ApproxMemorizer with the *Mean Square Error* metric by doing another pass over the training data and comparing the actual y values with the predicted y values.
 
 ## Implementation
 * You must use C++ or Java for the main implementation
