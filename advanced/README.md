@@ -39,6 +39,6 @@
      
 
 ## Testing and Benchmarking
-* Write unit tests to check that your implementation is correct
-* Benchmark your code on the given dataset in this repository with `{x_i, y_i}` values and report the accuracy and runtime for various values of maxByteSize by creating PNG plots
+* Write unit tests to check that your implementation is correct (e.g., using the file `small.data`)
+* Benchmark your code on the given dataset `large.data.gz` in this repository with `{x_i, y_i}` values and report the accuracy and runtime for various values of maxByteSize by creating PNG plots
 * Note: We might test your solution on other datasets (do not over-optimize your solution for this dataset)
