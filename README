@@ -1,0 +1,6 @@
+I compiled the project using g++ as well as Visual Studio
+Example:
+
+./ApproxMemorizer large.data 1000
+Runs approxMemorizer with large.data file and mini batch size set to 1000
+
